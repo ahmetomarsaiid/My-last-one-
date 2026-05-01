@@ -1,4 +1,3 @@
-```python
 import telebot, cloudscraper, base64, re, time, os, json, threading, hashlib, requests, random, datetime, queue, urllib3, html
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 from user_agent import generate_user_agent
@@ -978,5 +977,3 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"Polling Error: {e}")
             time.sleep(5)
-
-```
